@@ -102,6 +102,11 @@ export function SiteHeader() {
         </span>
       </Link>
 
+      <div
+        className={`nav-overlay ${menuOpen ? "open" : ""}`}
+        onClick={() => setMenuOpen(false)}
+        aria-hidden="true"
+      />
       <nav
         className={`nav ${menuOpen ? "nav-open" : ""}`}
         aria-label="Asosiy navigatsiya"
