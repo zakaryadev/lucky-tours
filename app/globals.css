@@ -1351,17 +1351,33 @@ img {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
   }
   .destination-grid::-webkit-scrollbar,
   .package-grid::-webkit-scrollbar {
     display: none;
   }
+  .destination-grid > a,
+  .package-grid > a,
   .destination-card,
   .package-card {
     flex: 0 0 290px;
+    min-width: 290px;
     scroll-snap-align: start;
+    display: block;
+    text-decoration: none;
+  }
+  .destination-grid > a .destination-card,
+  .package-grid > a .package-card {
+    width: 100%;
+    height: 100%;
+  }
+  .destination-grid [data-reveal],
+  .package-grid [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
   }
   .services {
     grid-template-columns: 1fr;
@@ -1485,9 +1501,16 @@ img {
   .section-action > span:first-child {
     display: none;
   }
+  .destination-grid > a,
+  .package-grid > a,
   .destination-card,
   .package-card {
     flex-basis: 82vw;
+    min-width: 82vw;
+  }
+  .tours-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
   .service-list {
     grid-template-columns: 1fr;
