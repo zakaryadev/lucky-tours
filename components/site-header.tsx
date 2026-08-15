@@ -134,8 +134,8 @@ export function SiteHeader() {
           {lang === "uz" ? <UzCircleFlag /> : <UkCircleFlag />}
         </button>
 
-        <a className="phone-pill" href="tel:+998712000001">
-          <Phone size={16} /> +998 71 200 00 01
+        <a className="phone-pill" href="tel:+998956760066">
+          <Phone size={16} /> +998 95 676 00 66
         </a>
 
         <Link className="primary-button header-plan-btn" href="/#booking">
