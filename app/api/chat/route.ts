@@ -20,7 +20,7 @@ BIZNING XIZMATLARIMIZ:
 5. 24/7 qo'llab-quvvatlash
 
 ALOQA VA BAND QILISH:
-- Telefon: +998 71 200 00 01
+- Telefon: +998 95 676 00 66
 - Telegram: @luckytours
 - Manzil: Toshkent sh., Markaziy filial
 

@@ -84,7 +84,7 @@ export function AIChatWidget() {
           {
             role: "assistant",
             content:
-              "Kechirasiz, javob olishda uzilish bo'ldi. Iltimos qaytadan urinib ko'ring yoki +998 71 200 00 01 ga qo'ng'iroq qiling.",
+              "Kechirasiz, javob olishda uzilish bo'ldi. Iltimos qaytadan urinib ko'ring yoki +998 95 676 00 66 ga qo'ng'iroq qiling.",
           },
         ]);
       }
@@ -93,7 +93,8 @@ export function AIChatWidget() {
         ...newMessages,
         {
           role: "assistant",
-          content: "Server bilan aloqa uzildi. Iltimos qaytadan urinib ko'ring.",
+          content:
+            "Server bilan aloqa uzildi. Iltimos qaytadan urinib ko'ring.",
         },
       ]);
     } finally {

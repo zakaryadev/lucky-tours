@@ -2,7 +2,15 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Facebook, Instagram, Mail, MapPin, Phone, Send, Youtube } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Mail,
+  MapPin,
+  Phone,
+  Send,
+  Youtube,
+} from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export function SiteFooter() {
@@ -11,7 +19,11 @@ export function SiteFooter() {
   return (
     <footer className="footer" id="contact">
       <div className="shell footer-grid">
-        <div className="footer-brand" data-reveal style={{ "--i": 0 } as React.CSSProperties}>
+        <div
+          className="footer-brand"
+          data-reveal
+          style={{ "--i": 0 } as React.CSSProperties}
+        >
           <Link className="brand" href="/">
             <span className="brand-mark">
               <Image
@@ -38,30 +50,46 @@ export function SiteFooter() {
             </a>
           </div>
         </div>
-        <div className="footer-column" data-reveal style={{ "--i": 1 } as React.CSSProperties}>
+        <div
+          className="footer-column"
+          data-reveal
+          style={{ "--i": 1 } as React.CSSProperties}
+        >
           <h3>{t("footer.col1")}</h3>
           <Link href="/#about">{t("nav.about")}</Link>
           <Link href="/tours">{t("nav.tours")}</Link>
           <Link href="/#services">{t("nav.services")}</Link>
           <Link href="/#contact">{t("nav.contact")}</Link>
         </div>
-        <div className="footer-column" data-reveal style={{ "--i": 2 } as React.CSSProperties}>
+        <div
+          className="footer-column"
+          data-reveal
+          style={{ "--i": 2 } as React.CSSProperties}
+        >
           <h3>{t("footer.col2")}</h3>
           <Link href="/tours/turkiya">Turkiya & BAA</Link>
           <Link href="/tours/gruziya">Gruziya & Azarbayjon</Link>
           <Link href="/tours/tailand">Tailand & Malayziya</Link>
           <Link href="/tours/xitoy">Xitoy & Vetnam</Link>
         </div>
-        <div className="footer-column" data-reveal style={{ "--i": 3 } as React.CSSProperties}>
+        <div
+          className="footer-column"
+          data-reveal
+          style={{ "--i": 3 } as React.CSSProperties}
+        >
           <h3>{t("footer.col3")}</h3>
           <Link href="/#services">FAQ</Link>
           <Link href="/#contact">Foydalanish shartlari</Link>
           <Link href="/#contact">Maxfiylik siyosati</Link>
         </div>
-        <div className="footer-column contact-column" data-reveal style={{ "--i": 4 } as React.CSSProperties}>
+        <div
+          className="footer-column contact-column"
+          data-reveal
+          style={{ "--i": 4 } as React.CSSProperties}
+        >
           <h3>{t("footer.col4")}</h3>
-          <a href="tel:+998712000001">
-            <Phone size={16} /> +998 71 200 00 01
+          <a href="tel:+998956760066">
+            <Phone size={16} /> +998 95 676 00 66
           </a>
           <a href="mailto:info@luckytours.uz">
             <Mail size={16} /> info@luckytours.uz
