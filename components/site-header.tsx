@@ -78,6 +78,7 @@ export function SiteHeader() {
     { label: t("nav.packages"), href: "/#packages" },
     { label: t("nav.services"), href: "/#services" },
     { label: t("nav.about"), href: "/#about" },
+    { label: t("nav.payment"), href: "/tolov" },
     { label: t("nav.contact"), href: "/#contact" },
   ];
 

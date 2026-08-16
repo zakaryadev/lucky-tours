@@ -59,6 +59,7 @@ export function SiteFooter() {
           <Link href="/#about">{t("nav.about")}</Link>
           <Link href="/tours">{t("nav.tours")}</Link>
           <Link href="/#services">{t("nav.services")}</Link>
+          <Link href="/tolov">{t("nav.payment")}</Link>
           <Link href="/#contact">{t("nav.contact")}</Link>
         </div>
         <div
